@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  .row {
+    display: flex;
+    margin: 0 20px;
+  }
+  
+  .container {
+    width: 100%;
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .content-center {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-toggel {
+    display: none;
+  }
+  
+  
+  /*<<<<<.......... title section..........>>>>> */
+  
+  .title-section {
+    background-color: #707561;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 623px; */
+  }
+  
+  .jscsb {
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .box-item .col-50 h1 {
+    font-size: 66px;
+    color: #f7e392;
+    /* font-weight: 400; */
+    text-align: right;
+    margin: 45px 30px;
+  }
+  
+  .box-item .col-50 h2 {
+    font-size: 60px;
+    width: 760px;
+    color: #f7e392;
+    text-align: center;
+  }
+  
+  .box-item .col-50 p {
+    font-size: 20px;
+    color: #f7e392;
+    text-align: center;
+    margin: 165px 119px;
+  }
+  
+  .box-item .col-50 img {
+    margin: 90px 78px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+  .box-item .col-50 a {
+    font-size: 25px;
+    color: #707561;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #f7e392;
+    padding: 7px 10px;
+    margin: 0 300px;
+    position: absolute;
+  }
+  * {box-sizing: border-box}
+
+  .contain {
+    width: 100%;
+    /* background-color: #ddd; */
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .react {width: 60%; background-color: #808080;}
+  
+
+  * {
+  box-sizing: border-box;
+}
+
+.cards{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 120px;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+.card{
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+}
+.card h3{
+  font-size: 34px;
+  
+}
+
+.hidden-link {
+  display: none; /* Hide the link completely */
+}
